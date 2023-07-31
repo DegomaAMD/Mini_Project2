@@ -1,0 +1,30 @@
+.aboutUsBanner{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.aboutUsImg{
+    width: 80%;
+    height: 350px;
+}
+
+.AboutUs p,h3{
+    margin: 20px 0px;
+    text-align: start;
+}
+
+.AboutUs h1{
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+@media (max-width:480px){
+    .aboutUsImg{
+        width: 100vw;
+        height: 350px;
+    }
+    .AboutUs h1{
+        font-size: 30px;
+    }
+}
